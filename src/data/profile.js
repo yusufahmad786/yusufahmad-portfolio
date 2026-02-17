@@ -11,7 +11,7 @@ export const profile = {
   availability: 'Immediate joiner',
   badges: ['Manual Testing', 'Automation Testing', 'Selenium', 'Java', 'Postman', 'CI/CD', 'Cucumber BDD', 'AI in Testing'],
   quickStats: [
-    { label: 'Experience', value: '7+ years', hint: 'Manual, automation, API testing, and production support.' },
+    { label: 'Experience', value: '5+ years', hint: 'Manual, automation, API testing, and production support.' },
     { label: 'Automation uplift', value: '40% faster', hint: 'Data driven POM frameworks and stable regression suites.' },
     { label: 'Release cycle cut', value: '25 to 7 days', hint: 'Process improvements plus tighter QA collaboration.' },
     { label: 'Time saved', value: '10 hours per week', hint: 'Python and PowerShell scripts for routine validation.' }
@@ -42,7 +42,7 @@ export const profile = {
         'Created strong Jira defect reports with logs and reproduction steps to speed hotfix work.',
         'Validated AI Virtual Agent logic changes and improvements to user query resolution.'
       ],
-      skills: ['Production support', 'SQL', 'Jira', 'AI virtual agent', 'Root cause analysis']
+      skills: ['Production support', 'SQL', 'Jira', 'AI virtual agent', 'Root cause analysis', 'Talkdesk', 'Test Case Creation & Execution']
     },
     {
       company: 'Everise',
@@ -68,21 +68,21 @@ export const profile = {
         'Validated data flow between POS terminals and backend systems to catch integration issues early.',
         'Partnered with cross functional teams on acceptance criteria and release readiness.'
       ],
-      skills: ['System testing', 'E2E testing', 'Jira', 'Retail systems']
+      skills: ['System testing', 'E2E testing', 'Jira', 'Retail systems', 'Automated Testing']
     },
     {
       company: 'Tata Consultancy Services',
       logo: '/assets/tcs.webp',
       role: 'Software QA Engineer, Test Planning and Automation',
       dates: 'Jan 2019 to Aug 2022',
-      location: 'New Delhi, India (Hybrid)',
+      location: 'New Delhi, India (Onsite)',
       highlights: [
         'Built Selenium WebDriver automation frameworks in Java using Page Object Model and data driven approaches.',
         'Automated regression suites in TestNG and integrated runs in Jenkins CI using Maven and Git.',
         'Executed API testing using Postman and Rest Assured with strong endpoint and error handling validation.',
         'Contributed to a delivery improvement initiative that reduced release timelines from 25 days to 7.'
       ],
-      skills: ['Selenium', 'Java', 'TestNG', 'Cucumber', 'Postman', 'Jenkins']
+      skills: ['Selenium', 'Java', 'TestNG', 'Cucumber', 'Postman', 'Jenkins', 'Automated Testing', 'Test Planning', 'Defect Lifecycle']
     },
     {
       company: 'Tata Consultancy Services',
