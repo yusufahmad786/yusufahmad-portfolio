@@ -63,7 +63,7 @@ export default function Experience(){
                   {job.skills.map((s) => (
                     <span
                       key={s}
-                      className="rounded-full border border-white/10 bg-indigo-500/10 px-3 py-1 text-xs font-semibold text-indigo-100"
+                      className="rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700 dark:border-white/10 dark:bg-indigo-500/10 dark:text-indigo-100"
                     >
                       {s}
                     </span>
