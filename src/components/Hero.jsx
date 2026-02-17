@@ -57,7 +57,7 @@ export default function Hero(){
             initial="hidden"
             animate="show"
             custom={2}
-            className="max-w-xl text-sm leading-relaxed text-slate-700 dark:text-white/75 sm:text-base"
+            className="max-w-xl text-sm leading-relaxed text-slate-900/90 dark:text-white/75 sm:text-base"
           >
             {profile.subheadline}
           </motion.p>
