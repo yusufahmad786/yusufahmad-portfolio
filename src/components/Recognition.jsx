@@ -18,7 +18,7 @@ export default function Recognition(){
       <SectionHeader
         kicker="Trust"
         title="Certifications, awards, and recommendations"
-        subtitle="Recognition is nice. What matters more is consistent delivery. These are a few signals." 
+        subtitle="Recognition is nice. What matters more is consistent delivery." 
       />
 
       <div className="grid gap-6 lg:grid-cols-3">
@@ -68,11 +68,11 @@ export default function Recognition(){
                   <div className="flex items-start justify-between gap-3">
                     <div>
                       <div className="text-sm font-extrabold">{a.title}</div>
-                      <div className="mt-1 text-sm text-white/70">{a.issuer}</div>
+                      <div className="mt-1 text-sm text-slate-700 dark:text-white/70">{a.issuer}</div>
                     </div>
-                    <div className="text-xs font-bold text-white/55">{a.year}</div>
+                    <div className="text-xs font-bold text-slate-500 dark:text-white/55">{a.year}</div>
                   </div>
-                  <div className="mt-2 text-sm text-white/70">{a.details}</div>
+                  <div className="mt-2 text-sm text-slate-700 dark:text-white/70">{a.details}</div>
                 </div>
               ))}
             </div>
