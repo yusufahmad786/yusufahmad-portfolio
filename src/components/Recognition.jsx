@@ -38,9 +38,9 @@ export default function Recognition(){
                 key={c.title}
                 className="rounded-2xl border border-white/10 bg-white/5 p-5 hover:bg-white/10 transition"
               >
-                <div className="text-sm font-extrabold">{c.title}</div>
-                <div className="mt-1 text-sm text-white/70">{c.issuer}</div>
-                <div className="mt-3 text-xs font-bold text-white/55">Issued {c.year}</div>
+                <div className="text-sm font-extrabold text-slate-900 dark:text-white">{c.title}</div>
+                <div className="mt-1 text-sm text-slate-700 dark:text-white/70">{c.issuer}</div>
+                <div className="mt-3 text-xs font-bold text-slate-500 dark:text-white/55">Issued {c.year}</div>
               </div>
             ))}
           </div>
