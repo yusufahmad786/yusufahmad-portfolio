@@ -44,7 +44,7 @@ export default function Hero(){
             initial="hidden"
             animate="show"
             custom={1}
-            className="text-2xl font-bold tracking-tight sm:text-5xl"
+            className="text-4xl font-extrabold tracking-tight sm:text-5xl"
           >
             {profile.name}
             <span className="block bg-gradient-to-r from-indigo-200 via-white to-fuchsia-200 bg-[length:200%_200%] bg-clip-text text-transparent animate-shimmer">
