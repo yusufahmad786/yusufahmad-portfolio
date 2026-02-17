@@ -13,7 +13,7 @@ export default function Experience(){
       />
 
       <div className="relative">
-        <div className="absolute left-4 top-0 h-full w-px bg-white/10 sm:left-8" />
+        <div className="absolute left-4 top-0 h-full w-px bg-slate-200 dark:bg-white/10 sm:left-8" />
 
         <div className="grid gap-8">
           {profile.experience.map((job, idx) => (
@@ -35,7 +35,7 @@ export default function Experience(){
                 </div>
               </div>
 
-              <div className="glass rounded-[32px] p-6 shadow-glow sm:p-7">
+              <div className="glass rounded-[32px] p-6 shadow-sm dark:shadow-glow sm:p-7">
                 <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between">
                   <div>
                     <div className="text-lg font-extrabold">{job.role}</div>
