@@ -48,18 +48,18 @@ export default function Hero(){
           >
             {profile.name}
             <span
-  className="
-    block bg-gradient-to-r
-    from-indigo-800 via-slate-900 to-fuchsia-700
-    dark:from-indigo-200 dark:via-white dark:to-fuchsia-200
-    bg-[length:200%_200%] bg-clip-text text-transparent
-    animate-shimmer
-    drop-shadow-[0_1px_1px_rgba(0,0,0,0.20)]
-    dark:drop-shadow-none
-  "
->
-  {profile.headline}
-</span>
+            className="
+              block bg-gradient-to-r
+              from-indigo-800 via-slate-900 to-fuchsia-700
+              dark:from-indigo-200 dark:via-white dark:to-fuchsia-200
+              bg-[length:200%_200%] bg-clip-text text-transparent
+              animate-shimmer
+              drop-shadow-[0_1px_1px_rgba(0,0,0,0.20)]
+              dark:drop-shadow-none
+            "
+          >
+            {profile.headline}
+          </span>
 
           </motion.h1>
 
