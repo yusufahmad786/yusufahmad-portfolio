@@ -39,19 +39,23 @@ export default function Experience(){
                 <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between">
                   <div>
                     <div className="text-lg font-extrabold">{job.role}</div>
-                    <div className="text-sm font-semibold text-white/70">{job.company}</div>
+                    <div className="text-sm font-semibold text-slate-700 dark:text-white/70">{job.company}</div>
                   </div>
-                  <div className="mt-2 text-sm text-white/60 sm:mt-0 sm:text-right">
-                    <div className="font-semibold text-white/70">{job.dates}</div>
+                  <div className="mt-2 text-sm text-slate-600 dark:text-white/60 sm:mt-0 sm:text-right">
+
+                    <div className="font-semibold text-slate-700 dark:text-white/70">{job.dates}</div>
                     <div>{job.location}</div>
                   </div>
                 </div>
 
                 <div className="mt-5 grid gap-3 sm:grid-cols-2">
                   {job.highlights.map((h) => (
-                    <div key={h} className="rounded-2xl border border-white/10 bg-white/5 p-4">
-                      <div className="text-sm text-white/80">{h}</div>
-                    </div>
+                    <div
+  key={h}
+  className="rounded-2xl border border-slate-200 bg-white/80 p-4 dark:border-white/10 dark:bg-white/5"
+>
+  <div className="text-sm text-slate-700 dark:text-white/80">{h}</div>
+</div>
                   ))}
                 </div>
 
