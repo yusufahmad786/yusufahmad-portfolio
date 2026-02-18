@@ -91,7 +91,7 @@ export default function Contact(){
               </div>
 
               <div className="text-xs text-slate-500 dark:text-white/55">
-                Tip: If you want the form to send directly without opening email, connect it to a backend or a serverless function.
+                
               </div>
             </div>
           </div>

@@ -25,11 +25,11 @@ export default function Experience(){
               className="relative pl-12 sm:pl-20"
             >
               <div className="absolute left-0 top-3 sm:left-3">
-                <div className="grid h-12 w-12 place-items-center rounded-2xl border border-white/10 bg-white/5 shadow-glow">
+                <div className="grid h-16 w-16 place-items-center rounded-2xl border border-white/10 bg-white/5 shadow-glow sm:h-18 sm:w-18">
                   <img
                     src={job.logo}
                     alt={`${job.company} logo`}
-                    className="h-8 w-8 object-contain"
+                    className="h-10 w-10 object-contain sm:h-12 sm:w-12"
                     loading="lazy"
                   />
                 </div>
