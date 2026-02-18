@@ -146,12 +146,24 @@ export default function Hero(){
                 { src: '/assets/integral_logo.webp', alt: 'Integral University' }
               ].map((l) => (
                 <div
-                  key={l.alt}
-                  className="grid h-11 w-24 place-items-center rounded-2xl border border-white/10 bg-white/80 dark:bg-white/5 hover:bg-white dark:hover:bg-white/10 hover:scale-[1.02] transition"
-                  title={l.alt}
-                >
-                  <img src={l.src} alt={l.alt} className="h-7 w-20 object-contain" loading="lazy" />
-                </div>
+  key={l.alt}
+  className="
+    grid h-14 w-28 place-items-center rounded-2xl
+    border border-slate-200 bg-white/90
+    dark:border-white/10 dark:bg-white/5
+    hover:bg-white dark:hover:bg-white/10
+    hover:scale-[1.03] transition
+    sm:h-16 sm:w-32
+  "
+  title={l.alt}
+>
+  <img
+    src={l.src}
+    alt={l.alt}
+    className="h-9 w-24 object-contain sm:h-10 sm:w-28"
+    loading="lazy"
+  />
+</div>
               ))}
             </div>
           </motion.div>
