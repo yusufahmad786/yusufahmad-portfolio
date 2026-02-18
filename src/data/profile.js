@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Yusuf Ahmad',
-  pronouns: 'He/Him',
+  pronouns: 'India & Ireland Onsite Experience',
   headline: 'Software Test Engineer | SDET | ISTQB CTFL',
   subheadline:
     'Immediate joiner. ISTQB CTFL certified QA Engineer focused on manual and automated testing, API validation, and CI pipelines. Ex TCSer. MSc Software Engineering from University of Limerick with First Class Honours.',
