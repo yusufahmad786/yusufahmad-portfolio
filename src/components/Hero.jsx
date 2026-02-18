@@ -158,7 +158,7 @@ export default function Hero(){
   <img
     src={l.src}
     alt={l.alt}
-    className="h-9 w-24 object-contain sm:h-10 sm:w-28"
+    className="h-11 w-32 object-contain sm:h-11 sm:w-32"
     loading="lazy"
   />
 </div>
