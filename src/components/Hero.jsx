@@ -141,9 +141,7 @@ export default function Hero(){
                 { src: '/assets/capita.webp', alt: 'Capita' },
                 { src: '/assets/dunnes.webp', alt: 'Dunnes Stores' },
                 { src: '/assets/everise.webp', alt: 'Everise' },
-                { src: '/assets/tcs.webp', alt: 'Tata Consultancy Services' },
-                { src: '/assets/ul_logo.webp', alt: 'University of Limerick' },
-                { src: '/assets/integral_logo.webp', alt: 'Integral University' }
+                { src: '/assets/tcs.webp', alt: 'Tata Consultancy Services' }
               ].map((l) => (
                 <div
   key={l.alt}
